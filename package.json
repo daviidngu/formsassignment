@@ -1,0 +1,22 @@
+{
+  "name": "formsassignment",
+  "version": "1.0.0",
+  "description": "Filling out a form",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.19.7",
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.19.7",
+    "@wdio/mocha-framework": "^7.19.7",
+    "@wdio/spec-reporter": "^7.19.7",
+    "chromedriver": "^101.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}
