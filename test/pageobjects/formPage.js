@@ -5,7 +5,7 @@ class formPage{
 
     async openFormPage(){
         await browser.url(baseUrl)
-        await browser.pause(1000)
+        await browser.pause(3000)
     }
 
 
@@ -80,7 +80,7 @@ class formPage{
         await browser.pause(1000)
         var departmentSelection = await this.dropDownOptionsButton(department)
         await departmentSelection.click()
-        await browser.pause(1000)
+        await browser.pause(500)
     }
 
     get submitButton(){
@@ -89,7 +89,7 @@ class formPage{
 
     async submitForm(){
         await this.submitButton.click()
-        await browser.pause(1000)
+        await browser.pause(500)
     }
 
     
